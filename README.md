@@ -49,42 +49,42 @@ and the last parameter is the method of your selection.Typing 1 to 4 correspondi
 We also provide the shell script we used as reference i.e. whose name end with ".sh".Their content is easy to understand and you can modify the script file to get your desired test results.
 Our file directory hierarchy as follows you can run the test in the same way.
 
-Pair_1delins
-│   ├── data_1
-│   ├── data_1_ed_1
-│   ├── data_1_ed_10
-│   ├── data_1_ed_11
-│   ├── data_1_ed_12
-│   ├── data_1_ed_13
-│   ├── data_1_ed_14
-│   ├── data_1_ed_15
-│   ├── data_1_ed_2
-│   ├── data_1_ed_3
-│   ├── data_1_ed_4
-│   ├── data_1_ed_5
-│   ├── data_1_ed_6
-│   ├── data_1_ed_7
-│   ├── data_1_ed_8
-│   ├── data_1_ed_9
-│   ├── EdCondirm_1
-│   ├── EdDistribution
-│   │   └── EdDistribution_1
-│   ├── Exp_Rslt
-│   │   ├── FN
-│   │   │   ├── Method1Data1Rslt
-│   │   │   ├── Method2Data1Rslt
-│   │   │   ├── Method3Data1Rslt
-│   │   │   └── Method4Data1Rslt
-│   │   └── FP
-│   │       ├── Method1Data1Rslt
-│   │       ├── Method2Data1Rslt
-│   │       ├── Method3Data1Rslt
-│   │       └── Method4Data1Rslt
-│   ├── FNEXEC
-│   ├── FN.sh
-│   ├── FPEXEC
-│   ├── FP.sh
-│   ├── GenSHDPair_1delins
-│   ├── GenSHDPair_1delins.sh
-│   ├── PairEdConfirm
-│   └── PairEdConfirm.sh
+Pair_1delins  
+│   ├── data_1  
+│   ├── data_1_ed_1  
+│   ├── data_1_ed_2  
+│   ├── data_1_ed_3  
+│   ├── data_1_ed_4  
+│   ├── data_1_ed_5  
+│   ├── data_1_ed_6  
+│   ├── data_1_ed_7  
+│   ├── data_1_ed_8  
+│   ├── data_1_ed_9  
+│   ├── data_1_ed_10  
+│   ├── data_1_ed_11  
+│   ├── data_1_ed_12  
+│   ├── data_1_ed_13  
+│   ├── data_1_ed_14  
+│   ├── data_1_ed_15  
+│   ├── EdCondirm_1  
+│   ├── EdDistribution  
+│   │   └── EdDistribution_1  
+│   ├── Exp_Rslt  
+│   │   ├── FN  
+│   │   │   ├── Method1Data1Rslt  
+│   │   │   ├── Method2Data1Rslt  
+│   │   │   ├── Method3Data1Rslt  
+│   │   │   └── Method4Data1Rslt  
+│   │   └── FP  
+│   │       ├── Method1Data1Rslt  
+│   │       ├── Method2Data1Rslt  
+│   │       ├── Method3Data1Rslt  
+│   │       └── Method4Data1Rslt  
+│   ├── FNEXEC  
+│   ├── FN.sh  
+│   ├── FPEXEC  
+│   ├── FP.sh  
+│   ├── GenSHDPair_1delins  
+│   ├── GenSHDPair_1delins.sh  
+│   ├── PairEdConfirm  
+│   └── PairEdConfirm.sh  
