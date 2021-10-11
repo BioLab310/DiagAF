@@ -46,7 +46,7 @@ By run "$make" command, the executable program named "FPEXEC" and "FNEXEC" will 
 	
 You can enter the above command to test the number of data pairs passed through the filter of a data file.The first parameter is the file name of the data pair, the second parameter is the threshold T,
 and the last parameter is the method of your selection.Typing 1 to 4 corresponding to SHD,SHD_hf,DiagAF,DiagAF_DB.
-We also provide the shell script we used as reference i.e. whose name end with ".sh".Their content is easy to understand and you can modify the script file to get your desired test results.We provide some tiny test data in directory #Example#.You can use the pairdata to run 4 methods directly and get the test result immediately or generate the sequence data pairs through raw fastq data and rerun the whole experiment.  
+We also provide the shell script we used as reference i.e. whose name end with ".sh".Their content is easy to understand and you can modify the script file to get your desired test results.We provide two tiny test data sets in directory #Example# to help you build a quick test run by using the above mentioned files.You can use pairdata to run 4 methods directly and get the test results immediately or generate the sequence data pairs through raw fastq data and rerun the whole experiment.  
 Our file directory hierarchy as follows you can run the test in the same way.
 
 Pair_1delins  
