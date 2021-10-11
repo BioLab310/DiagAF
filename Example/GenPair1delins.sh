@@ -9,6 +9,6 @@ do
 	> ./EdDistribution/EdDistribution_${i}
 	for((j=1;j<=15;j++))
 	do
-		./GenSHDPair_1delins data_${i} $j >> ./EdDistribution/EdDistribution_${i}
+		./GenPair1delins read_50_100L $j >> ./EdDistribution/EdDistribution_${i}
 	done
 done

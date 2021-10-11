@@ -1,5 +1,13 @@
 #!/bin/bash
 k=1
+if [ ! -d Exp_Rslt  ];then
+  mkdir Exp_Rslt
+fi
+if [ ! -d Exp_Rslt/FN  ];then
+  mkdir Exp_Rslt/FN
+else
+  echo Exp_Rslt/FN exist
+fi
 for((m=1;m<=4;m++))
 do
 	> ./Exp_Rslt/FN/Method${m}Data${k}Rslt
